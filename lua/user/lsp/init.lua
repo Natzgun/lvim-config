@@ -1,5 +1,5 @@
 reload "user.lsp.languages.rust"
-reload "user.lsp.languages.golang"
+-- reload "user.lsp.languages.golang"
 reload "user.lsp.languages.sh"
 reload "user.lsp.languages.js-ts"
 

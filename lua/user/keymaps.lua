@@ -32,4 +32,9 @@ keymap("n", "<m-tab>", "<c-6>", opts)
 -- keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 -- keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
+-- binding for switching Python env
+lvim.builtin.which_key.mappings["C"] = {
+  name = "Python",
+  c = { "<cmd>lua require('swenv.api').pick_venv()<cr>", "Switch VENV " },
+}
 return M

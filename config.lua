@@ -15,3 +15,6 @@ reload "user.dial"
 
 -- reload "user.chatgpt"
 -- reload "user.neoai"
+
+reload "user.neovide"
+reload "user.swenv"

@@ -1,7 +1,9 @@
 -- Additional Plugins
 lvim.plugins = {
   "gpanders/editorconfig.nvim",
-  "sainnhe/gruvbox-material",
+  -- "sainnhe/gruvbox-material",
+  "adibhanna/gruvbox-material",
+  "windwp/nvim-ts-autotag",
   "folke/tokyonight.nvim",
   "fatih/vim-go",
   "olexsmir/gopher.nvim",
@@ -72,4 +74,9 @@ lvim.plugins = {
   -- "MunifTanjim/nui.nvim",
   -- "jackMort/ChatGPT.nvim",
   -- "Bryley/neoai.nvim"
+  -- Python IDE
+  "stevearc/dressing.nvim",
+  "AckslD/swenv.nvim",
+  -- "ChristianChiarulli/swenv.nvim",
+
 }
